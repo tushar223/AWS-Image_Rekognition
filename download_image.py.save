@@ -1,0 +1,12 @@
+import boto3
+import matplotlib.pyplot as plt
+from PIL import Image, ImageDraw
+
+# AWS Configuration
+BUCKET_NAME = "firt"
+S3_IMAGE_KEY = "uploads/cat.jpg"
+LOCAL_IMAGE = "cat.jpg"
+OUTPUT_IMAGE = "output.jpg"
+
+
+
