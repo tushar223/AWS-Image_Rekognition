@@ -77,3 +77,16 @@ nano download_image.py
 nano detect_objects.py
 python3 detect_objects.py 
 exit
+clear
+ls
+pwd
+git init
+git remote add origin https://github.com/tushar223/AWS-Image_Rekognition.git
+git add .
+git commit -m "Initial commit - AWS Rekognition Project"
+git branch -M main
+git push -u origin main
+git init
+git remote add origin https://github.com/tushar223/AWS-Image_Rekognition.git
+git branch -M main
+git push -u origin main
